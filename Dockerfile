@@ -1,4 +1,4 @@
-FROM node:18
+FROM alpine:3.18
 
 WORKDIR /app
 
@@ -11,8 +11,6 @@ RUN npm install -g prisma
 
 COPY ./ /app
 
-RUN prisma generate
-
 EXPOSE 3000
 
-CMD ["sh", "-c", "npx prisma migrate dev && npm start"]
+CMD ["sh", "-c", "npx prisma generate && npm start"]
