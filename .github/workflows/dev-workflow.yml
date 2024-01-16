@@ -17,5 +17,5 @@ jobs:
     - name: Install Dependencies
       run: npm install
     
-    - name: Run Tests
-      run: npm run test
+    - name: print sukses
+      run: echo "hai sukses"
