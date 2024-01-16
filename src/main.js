@@ -14,6 +14,6 @@ const start = async ()=>{
         logger.info(error)
     }
 }
-console.log("hii this change")
+
 
 start();
