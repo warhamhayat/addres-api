@@ -1,7 +1,7 @@
-name: Dev Branch Workflow
-
+name: Run the Action on each commit
 on:
-  pull_request:
+  push:
+    branches-ignore: main
 
 jobs:
   build-and-test:
