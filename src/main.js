@@ -15,6 +15,6 @@ const start = async ()=>{
     }
 }
 
-console.log("coba lagi yah")
+console.log("coba lagi")
 
 start();
